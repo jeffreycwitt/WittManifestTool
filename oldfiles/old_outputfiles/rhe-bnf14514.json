@@ -1,0 +1,2764 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://scta.info/iiif/rhe-bnf14514/manifest",
+    "@type": "sc:Manifest",
+    "label": "Robert Halifax - Paris, Bibliotheque Nationale de France, ms. lat. 14514",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Robert Halifax"
+        },
+        {
+            "label": "Published",
+            "value": [{
+                "@value": "?",
+                "@language": "la"
+            }]
+        }
+    ],
+    "description": "Witness to Book 1 of Robert Halifax's Commentary on the Sentences",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "BnF",
+    "service": "??",
+    "seeAlso": "http://gallicalabs.bnf.fr/ark:/12148/btv1b9068383r/",
+    "within": "??",
+    "logo": "https://raw.githubusercontent.com/IIIF/m2/master/images/logos/bnf-logo.jpeg",
+    "related": "http://gallica.bnf.fr/ark:/12148/btv1b9068383r",
+    "sequences": [{
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "http://scta.info/iiif/rhe-bnf14514/sequence/normal",
+        "@type": "sc:Sequence",
+        "label": "Current page order",
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P245",
+                "@type": "sc:Canvas",
+                "label": "folio 245",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P245-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P245.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f247",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P245"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P246",
+                "@type": "sc:Canvas",
+                "label": "folio 246",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P246-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P246.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f248",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P246"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P247",
+                "@type": "sc:Canvas",
+                "label": "folio 247",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P247-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P247.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f249",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P247"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P248",
+                "@type": "sc:Canvas",
+                "label": "folio 248",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P248-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P248.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f250",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P248"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P249",
+                "@type": "sc:Canvas",
+                "label": "folio 249",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P249-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P249.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f251",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P249"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P250",
+                "@type": "sc:Canvas",
+                "label": "folio 250",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P250-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P250.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f252",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P250"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P251",
+                "@type": "sc:Canvas",
+                "label": "folio 251",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P251-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P251.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f253",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P251"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P252",
+                "@type": "sc:Canvas",
+                "label": "folio 252",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P252-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P252.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f254",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P252"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P253",
+                "@type": "sc:Canvas",
+                "label": "folio 253",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P253-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P253.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f255",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P253"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P254",
+                "@type": "sc:Canvas",
+                "label": "folio 254",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P254-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P254.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f256",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P254"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P255",
+                "@type": "sc:Canvas",
+                "label": "folio 255",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P255-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P255.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f257",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P255"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P256",
+                "@type": "sc:Canvas",
+                "label": "folio 256",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P256-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P256.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f258",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P256"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P257",
+                "@type": "sc:Canvas",
+                "label": "folio 257",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P257-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P257.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f259",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P257"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P258",
+                "@type": "sc:Canvas",
+                "label": "folio 258",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P258-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P258.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f260",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P258"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P259",
+                "@type": "sc:Canvas",
+                "label": "folio 259",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P259-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P259.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f261",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P259"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P260",
+                "@type": "sc:Canvas",
+                "label": "folio 260",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P260-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P260.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f262",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P260"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P261",
+                "@type": "sc:Canvas",
+                "label": "folio 261",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P261-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P261.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f263",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P261"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P262",
+                "@type": "sc:Canvas",
+                "label": "folio 262",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P262-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P262.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f264",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P262"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P263",
+                "@type": "sc:Canvas",
+                "label": "folio 263",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P263-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P263.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f265",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P263"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P264",
+                "@type": "sc:Canvas",
+                "label": "folio 264",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P264-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P264.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f266",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P264"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P265",
+                "@type": "sc:Canvas",
+                "label": "folio 265",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P265-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P265.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f267",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P265"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P266",
+                "@type": "sc:Canvas",
+                "label": "folio 266",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P266-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P266.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f268",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P266"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P267",
+                "@type": "sc:Canvas",
+                "label": "folio 267",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P267-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P267.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f269",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P267"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P268",
+                "@type": "sc:Canvas",
+                "label": "folio 268",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P268-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P268.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f270",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P268"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P269",
+                "@type": "sc:Canvas",
+                "label": "folio 269",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P269-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P269.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f271",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P269"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P270",
+                "@type": "sc:Canvas",
+                "label": "folio 270",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P270-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P270.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f272",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P270"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P271",
+                "@type": "sc:Canvas",
+                "label": "folio 271",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P271-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P271.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f273",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P271"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P272",
+                "@type": "sc:Canvas",
+                "label": "folio 272",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P272-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P272.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f274",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P272"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P273",
+                "@type": "sc:Canvas",
+                "label": "folio 273",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P273-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P273.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f275",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P273"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P274",
+                "@type": "sc:Canvas",
+                "label": "folio 274",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P274-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P274.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f276",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P274"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P275",
+                "@type": "sc:Canvas",
+                "label": "folio 275",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P275-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P275.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f277",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P275"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P276",
+                "@type": "sc:Canvas",
+                "label": "folio 276",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P276-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P276.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f278",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P276"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P277",
+                "@type": "sc:Canvas",
+                "label": "folio 277",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P277-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P277.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f279",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P277"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P278",
+                "@type": "sc:Canvas",
+                "label": "folio 278",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P278-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P278.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f280",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P278"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P279",
+                "@type": "sc:Canvas",
+                "label": "folio 279",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P279-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P279.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f281",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P279"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P280",
+                "@type": "sc:Canvas",
+                "label": "folio 280",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P280-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P280.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f282",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P280"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P281",
+                "@type": "sc:Canvas",
+                "label": "folio 281",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P281-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P281.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f283",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P281"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P282",
+                "@type": "sc:Canvas",
+                "label": "folio 282",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P282-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P282.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f284",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P282"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P283",
+                "@type": "sc:Canvas",
+                "label": "folio 283",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P283-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P283.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f285",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P283"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P284",
+                "@type": "sc:Canvas",
+                "label": "folio 284",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P284-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P284.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f286",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P284"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P285",
+                "@type": "sc:Canvas",
+                "label": "folio 285",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P285-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P285.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f287",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P285"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P286",
+                "@type": "sc:Canvas",
+                "label": "folio 286",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P286-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P286.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f288",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P286"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P287",
+                "@type": "sc:Canvas",
+                "label": "folio 287",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P287-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P287.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f289",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P287"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P288",
+                "@type": "sc:Canvas",
+                "label": "folio 288",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P288-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P288.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f290",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P288"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P289",
+                "@type": "sc:Canvas",
+                "label": "folio 289",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P289-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P289.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f291",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P289"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P290",
+                "@type": "sc:Canvas",
+                "label": "folio 290",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P290-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P290.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f292",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P290"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P291",
+                "@type": "sc:Canvas",
+                "label": "folio 291",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P291-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P291.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f293",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P291"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P292",
+                "@type": "sc:Canvas",
+                "label": "folio 292",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P292-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P292.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f294",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P292"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P293",
+                "@type": "sc:Canvas",
+                "label": "folio 293",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P293-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P293.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f295",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P293"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P294",
+                "@type": "sc:Canvas",
+                "label": "folio 294",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P294-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P294.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f296",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P294"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P295",
+                "@type": "sc:Canvas",
+                "label": "folio 295",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P295-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P295.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f297",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P295"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P296",
+                "@type": "sc:Canvas",
+                "label": "folio 296",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P296-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P296.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f298",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P296"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P297",
+                "@type": "sc:Canvas",
+                "label": "folio 297",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P297-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P297.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f299",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P297"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P298",
+                "@type": "sc:Canvas",
+                "label": "folio 298",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P298-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P298.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f300",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P298"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P299",
+                "@type": "sc:Canvas",
+                "label": "folio 299",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P299-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P299.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f301",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P299"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P300",
+                "@type": "sc:Canvas",
+                "label": "folio 300",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P300-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P300.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f302",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P300"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P301",
+                "@type": "sc:Canvas",
+                "label": "folio 301",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P301-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P301.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f303",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P301"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P302",
+                "@type": "sc:Canvas",
+                "label": "folio 302",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P302-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P302.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f304",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P302"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P303",
+                "@type": "sc:Canvas",
+                "label": "folio 303",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P303-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P303.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f305",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P303"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P304",
+                "@type": "sc:Canvas",
+                "label": "folio 304",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P304-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P304.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f306",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P304"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P305",
+                "@type": "sc:Canvas",
+                "label": "folio 305",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P305-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P305.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f307",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P305"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P306",
+                "@type": "sc:Canvas",
+                "label": "folio 306",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P306-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P306.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f308",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P306"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P307",
+                "@type": "sc:Canvas",
+                "label": "folio 307",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P307-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P307.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f309",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P307"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P308",
+                "@type": "sc:Canvas",
+                "label": "folio 308",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P308-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P308.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f310",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P308"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P309",
+                "@type": "sc:Canvas",
+                "label": "folio 309",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P309-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P309.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f311",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P309"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P310",
+                "@type": "sc:Canvas",
+                "label": "folio 310",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P310-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P310.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f312",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P310"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P311",
+                "@type": "sc:Canvas",
+                "label": "folio 311",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P311-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P311.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f313",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P311"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P312",
+                "@type": "sc:Canvas",
+                "label": "folio 312",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P312-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P312.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f314",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P312"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P313",
+                "@type": "sc:Canvas",
+                "label": "folio 313",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P313-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P313.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f315",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P313"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P314",
+                "@type": "sc:Canvas",
+                "label": "folio 314",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P314-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P314.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f316",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P314"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P315",
+                "@type": "sc:Canvas",
+                "label": "folio 315",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P315-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P315.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f317",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P315"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P316",
+                "@type": "sc:Canvas",
+                "label": "folio 316",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P316-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P316.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f318",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P316"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P317",
+                "@type": "sc:Canvas",
+                "label": "folio 317",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P317-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P317.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f319",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P317"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P318",
+                "@type": "sc:Canvas",
+                "label": "folio 318",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P318-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P318.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f320",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P318"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P319",
+                "@type": "sc:Canvas",
+                "label": "folio 319",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P319-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P319.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f321",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P319"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P320",
+                "@type": "sc:Canvas",
+                "label": "folio 320",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P320-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P320.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f322",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P320"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P321",
+                "@type": "sc:Canvas",
+                "label": "folio 321",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P321-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P321.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f323",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P321"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P322",
+                "@type": "sc:Canvas",
+                "label": "folio 322",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P322-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P322.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f324",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P322"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P323",
+                "@type": "sc:Canvas",
+                "label": "folio 323",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P323-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P323.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f325",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P323"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P324",
+                "@type": "sc:Canvas",
+                "label": "folio 324",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P324-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P324.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f326",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P324"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P325",
+                "@type": "sc:Canvas",
+                "label": "folio 325",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P325-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P325.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f327",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P325"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P326",
+                "@type": "sc:Canvas",
+                "label": "folio 326",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P326-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P326.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f328",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P326"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P327",
+                "@type": "sc:Canvas",
+                "label": "folio 327",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P327-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P327.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f329",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P327"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P328",
+                "@type": "sc:Canvas",
+                "label": "folio 328",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P328-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P328.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f330",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P328"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P329",
+                "@type": "sc:Canvas",
+                "label": "folio 329",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P329-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P329.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f331",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P329"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P330",
+                "@type": "sc:Canvas",
+                "label": "folio 330",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P330-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P330.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f332",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P330"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P331",
+                "@type": "sc:Canvas",
+                "label": "folio 331",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P331-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P331.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f333",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P331"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P332",
+                "@type": "sc:Canvas",
+                "label": "folio 332",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P332-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P332.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f334",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P332"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P333",
+                "@type": "sc:Canvas",
+                "label": "folio 333",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P333-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P333.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f335",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P333"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P334",
+                "@type": "sc:Canvas",
+                "label": "folio 334",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P334-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P334.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f336",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P334"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P335",
+                "@type": "sc:Canvas",
+                "label": "folio 335",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P335-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P335.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f337",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P335"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P336",
+                "@type": "sc:Canvas",
+                "label": "folio 336",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P336-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P336.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f338",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P336"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P337",
+                "@type": "sc:Canvas",
+                "label": "folio 337",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P337-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P337.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f339",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P337"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P338",
+                "@type": "sc:Canvas",
+                "label": "folio 338",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P338-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P338.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f340",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P338"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P339",
+                "@type": "sc:Canvas",
+                "label": "folio 339",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P339-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P339.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f341",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P339"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P340",
+                "@type": "sc:Canvas",
+                "label": "folio 340",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P340-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P340.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f342",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P340"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P341",
+                "@type": "sc:Canvas",
+                "label": "folio 341",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P341-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P341.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f343",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P341"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P342",
+                "@type": "sc:Canvas",
+                "label": "folio 342",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P342-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P342.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f344",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P342"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P343",
+                "@type": "sc:Canvas",
+                "label": "folio 343",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P343-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P343.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f345",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P343"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P344",
+                "@type": "sc:Canvas",
+                "label": "folio 344",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P344-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P344.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f346",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P344"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/rhe-bnf14514/canvas/P345",
+                "@type": "sc:Canvas",
+                "label": "folio 345",
+                "height": 1054,
+                "width": 1522,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/rhe-bnf14514/annotation/P345-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/rhe-bnf14514/res/P345.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9068383r/f347",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 1054,
+                        "width": 1522
+                    },
+                    "on": "http://scta.info/iiif/rhe-bnf14514/canvas/P345"
+                }]
+            }
+        ]
+    }]
+}

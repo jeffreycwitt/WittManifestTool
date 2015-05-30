@@ -1,0 +1,2573 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://scta.info/iiif/jr-bnf15369/manifest",
+    "@type": "sc:Manifest",
+    "label": "Jean of Ripa - Paris, Bibliotheque Nationale de France, ms. lat. 15369",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Jean of Ripa"
+        },
+        {
+            "label": "Published",
+            "value": [{
+                "@value": "1401-1425",
+                "@language": "la"
+            }]
+        }
+    ],
+    "description": "Witness to Jean of Ripa's Commentary on the Sentences",
+    "license": "BnF",
+    "attribution": "BnF",
+    "service": "??",
+    "seeAlso": "?",
+    "within": "??",
+    "sequences": [{
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "http://scta.info/iiif/jr-bnf15369/sequence/normal",
+        "@type": "sc:Sequence",
+        "label": "Current page order",
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z1",
+                "@type": "sc:Canvas",
+                "label": "folio 1",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z1-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z1.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f1",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z1"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z2",
+                "@type": "sc:Canvas",
+                "label": "folio 2",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z2-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z2.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f2",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z2"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z3",
+                "@type": "sc:Canvas",
+                "label": "folio 3",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z3-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z3.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f3",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z3"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z4",
+                "@type": "sc:Canvas",
+                "label": "folio 4",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z4-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z4.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f4",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z4"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z5",
+                "@type": "sc:Canvas",
+                "label": "folio 5",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z5-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z5.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f5",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z5"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z6",
+                "@type": "sc:Canvas",
+                "label": "folio 6",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z6-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z6.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f6",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z6"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z7",
+                "@type": "sc:Canvas",
+                "label": "folio 7",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z7-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z7.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f7",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z7"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z8",
+                "@type": "sc:Canvas",
+                "label": "folio 8",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z8-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z8.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f8",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z8"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z9",
+                "@type": "sc:Canvas",
+                "label": "folio 9",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z9-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z9.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f9",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z9"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z10",
+                "@type": "sc:Canvas",
+                "label": "folio 10",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z10-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z10.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f10",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z10"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z11",
+                "@type": "sc:Canvas",
+                "label": "folio 11",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z11-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z11.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f11",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z11"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z12",
+                "@type": "sc:Canvas",
+                "label": "folio 12",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z12-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z12.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f12",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z12"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z13",
+                "@type": "sc:Canvas",
+                "label": "folio 13",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z13-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z13.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f13",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z13"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z14",
+                "@type": "sc:Canvas",
+                "label": "folio 14",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z14-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z14.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f14",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z14"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z15",
+                "@type": "sc:Canvas",
+                "label": "folio 15",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z15-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z15.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f15",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z15"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z16",
+                "@type": "sc:Canvas",
+                "label": "folio 16",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z16-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z16.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f16",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z16"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z17",
+                "@type": "sc:Canvas",
+                "label": "folio 17",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z17-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z17.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f17",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z17"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z18",
+                "@type": "sc:Canvas",
+                "label": "folio 18",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z18-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z18.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f18",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z18"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z19",
+                "@type": "sc:Canvas",
+                "label": "folio 19",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z19-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z19.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f19",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z19"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z20",
+                "@type": "sc:Canvas",
+                "label": "folio 20",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z20-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z20.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f20",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z20"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z21",
+                "@type": "sc:Canvas",
+                "label": "folio 21",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z21-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z21.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f21",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z21"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z22",
+                "@type": "sc:Canvas",
+                "label": "folio 22",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z22-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z22.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f22",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z22"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z23",
+                "@type": "sc:Canvas",
+                "label": "folio 23",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z23-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z23.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f23",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z23"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z24",
+                "@type": "sc:Canvas",
+                "label": "folio 24",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z24-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z24.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f24",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z24"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z25",
+                "@type": "sc:Canvas",
+                "label": "folio 25",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z25-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z25.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f25",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z25"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z26",
+                "@type": "sc:Canvas",
+                "label": "folio 26",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z26-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z26.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f26",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z26"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z27",
+                "@type": "sc:Canvas",
+                "label": "folio 27",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z27-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z27.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f27",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z27"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z28",
+                "@type": "sc:Canvas",
+                "label": "folio 28",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z28-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z28.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f28",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z28"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z29",
+                "@type": "sc:Canvas",
+                "label": "folio 29",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z29-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z29.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f29",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z29"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z30",
+                "@type": "sc:Canvas",
+                "label": "folio 30",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z30-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z30.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f30",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z30"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z31",
+                "@type": "sc:Canvas",
+                "label": "folio 31",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z31-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z31.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f31",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z31"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z32",
+                "@type": "sc:Canvas",
+                "label": "folio 32",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z32-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z32.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f32",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z32"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z33",
+                "@type": "sc:Canvas",
+                "label": "folio 33",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z33-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z33.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f33",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z33"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z34",
+                "@type": "sc:Canvas",
+                "label": "folio 34",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z34-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z34.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f34",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z34"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z35",
+                "@type": "sc:Canvas",
+                "label": "folio 35",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z35-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z35.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f35",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z35"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z36",
+                "@type": "sc:Canvas",
+                "label": "folio 36",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z36-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z36.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f36",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z36"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z37",
+                "@type": "sc:Canvas",
+                "label": "folio 37",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z37-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z37.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f37",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z37"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z38",
+                "@type": "sc:Canvas",
+                "label": "folio 38",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z38-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z38.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f38",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z38"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z39",
+                "@type": "sc:Canvas",
+                "label": "folio 39",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z39-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z39.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f39",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z39"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z40",
+                "@type": "sc:Canvas",
+                "label": "folio 40",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z40-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z40.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f40",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z40"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z41",
+                "@type": "sc:Canvas",
+                "label": "folio 41",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z41-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z41.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f41",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z41"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z42",
+                "@type": "sc:Canvas",
+                "label": "folio 42",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z42-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z42.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f42",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z42"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z43",
+                "@type": "sc:Canvas",
+                "label": "folio 43",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z43-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z43.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f43",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z43"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z44",
+                "@type": "sc:Canvas",
+                "label": "folio 44",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z44-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z44.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f44",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z44"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z45",
+                "@type": "sc:Canvas",
+                "label": "folio 45",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z45-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z45.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f45",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z45"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z46",
+                "@type": "sc:Canvas",
+                "label": "folio 46",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z46-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z46.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f46",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z46"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z47",
+                "@type": "sc:Canvas",
+                "label": "folio 47",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z47-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z47.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f47",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z47"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z48",
+                "@type": "sc:Canvas",
+                "label": "folio 48",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z48-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z48.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f48",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z48"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z49",
+                "@type": "sc:Canvas",
+                "label": "folio 49",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z49-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z49.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f49",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z49"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z50",
+                "@type": "sc:Canvas",
+                "label": "folio 50",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z50-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z50.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f50",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z50"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z51",
+                "@type": "sc:Canvas",
+                "label": "folio 51",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z51-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z51.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f51",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z51"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z52",
+                "@type": "sc:Canvas",
+                "label": "folio 52",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z52-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z52.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f52",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z52"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z53",
+                "@type": "sc:Canvas",
+                "label": "folio 53",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z53-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z53.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f53",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z53"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z54",
+                "@type": "sc:Canvas",
+                "label": "folio 54",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z54-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z54.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f54",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z54"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z55",
+                "@type": "sc:Canvas",
+                "label": "folio 55",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z55-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z55.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f55",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z55"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z56",
+                "@type": "sc:Canvas",
+                "label": "folio 56",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z56-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z56.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f56",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z56"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z57",
+                "@type": "sc:Canvas",
+                "label": "folio 57",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z57-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z57.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f57",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z57"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z58",
+                "@type": "sc:Canvas",
+                "label": "folio 58",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z58-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z58.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f58",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z58"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z59",
+                "@type": "sc:Canvas",
+                "label": "folio 59",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z59-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z59.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f59",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z59"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z60",
+                "@type": "sc:Canvas",
+                "label": "folio 60",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z60-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z60.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f60",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z60"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z61",
+                "@type": "sc:Canvas",
+                "label": "folio 61",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z61-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z61.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f61",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z61"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z62",
+                "@type": "sc:Canvas",
+                "label": "folio 62",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z62-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z62.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f62",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z62"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z63",
+                "@type": "sc:Canvas",
+                "label": "folio 63",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z63-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z63.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f63",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z63"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z64",
+                "@type": "sc:Canvas",
+                "label": "folio 64",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z64-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z64.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f64",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z64"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z65",
+                "@type": "sc:Canvas",
+                "label": "folio 65",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z65-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z65.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f65",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z65"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z66",
+                "@type": "sc:Canvas",
+                "label": "folio 66",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z66-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z66.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f66",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z66"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z67",
+                "@type": "sc:Canvas",
+                "label": "folio 67",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z67-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z67.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f67",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z67"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z68",
+                "@type": "sc:Canvas",
+                "label": "folio 68",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z68-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z68.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f68",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z68"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z69",
+                "@type": "sc:Canvas",
+                "label": "folio 69",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z69-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z69.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f69",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z69"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z70",
+                "@type": "sc:Canvas",
+                "label": "folio 70",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z70-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z70.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f70",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z70"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z71",
+                "@type": "sc:Canvas",
+                "label": "folio 71",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z71-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z71.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f71",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z71"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z72",
+                "@type": "sc:Canvas",
+                "label": "folio 72",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z72-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z72.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f72",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z72"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z73",
+                "@type": "sc:Canvas",
+                "label": "folio 73",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z73-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z73.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f73",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z73"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z74",
+                "@type": "sc:Canvas",
+                "label": "folio 74",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z74-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z74.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f74",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z74"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z75",
+                "@type": "sc:Canvas",
+                "label": "folio 75",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z75-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z75.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f75",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z75"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z76",
+                "@type": "sc:Canvas",
+                "label": "folio 76",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z76-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z76.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f76",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z76"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z77",
+                "@type": "sc:Canvas",
+                "label": "folio 77",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z77-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z77.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f77",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z77"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z78",
+                "@type": "sc:Canvas",
+                "label": "folio 78",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z78-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z78.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f78",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z78"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z79",
+                "@type": "sc:Canvas",
+                "label": "folio 79",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z79-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z79.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f79",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z79"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z80",
+                "@type": "sc:Canvas",
+                "label": "folio 80",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z80-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z80.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f80",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z80"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z81",
+                "@type": "sc:Canvas",
+                "label": "folio 81",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z81-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z81.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f81",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z81"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z82",
+                "@type": "sc:Canvas",
+                "label": "folio 82",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z82-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z82.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f82",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z82"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z83",
+                "@type": "sc:Canvas",
+                "label": "folio 83",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z83-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z83.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f83",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z83"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z84",
+                "@type": "sc:Canvas",
+                "label": "folio 84",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z84-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z84.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f84",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z84"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z85",
+                "@type": "sc:Canvas",
+                "label": "folio 85",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z85-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z85.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f85",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z85"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z86",
+                "@type": "sc:Canvas",
+                "label": "folio 86",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z86-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z86.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f86",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z86"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z87",
+                "@type": "sc:Canvas",
+                "label": "folio 87",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z87-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z87.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f87",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z87"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z88",
+                "@type": "sc:Canvas",
+                "label": "folio 88",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z88-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z88.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f88",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z88"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z89",
+                "@type": "sc:Canvas",
+                "label": "folio 89",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z89-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z89.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f89",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z89"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z90",
+                "@type": "sc:Canvas",
+                "label": "folio 90",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z90-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z90.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f90",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z90"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z91",
+                "@type": "sc:Canvas",
+                "label": "folio 91",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z91-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z91.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f91",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z91"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z92",
+                "@type": "sc:Canvas",
+                "label": "folio 92",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z92-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z92.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f92",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z92"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z93",
+                "@type": "sc:Canvas",
+                "label": "folio 93",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z93-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z93.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f93",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z93"
+                }]
+            },
+            {
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": "http://scta.info/iiif/jr-bnf15369/canvas/Z94",
+                "@type": "sc:Canvas",
+                "label": "folio 94",
+                "height": 708,
+                "width": 1044,
+                "images": [{
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://scta.info/iiif/jr-bnf15369/annotation/Z94-image",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://scta.info/iiif/jr-bnf15369/res/Z94.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/1/context.json",
+                            "@id": "http://gallica.bnf.fr/iiif/ark:/12148/btv1b9067248n/f94",
+                            "profile": "http://iiif.io/api/image/1/level2.json"
+                        },
+                        "height": 708,
+                        "width": 1044
+                    },
+                    "on": "http://scta.info/iiif/jr-bnf15369/canvas/Z94"
+                }]
+            }
+        ]
+    }]
+}

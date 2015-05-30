@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require "thor"
+
+class Manifest < Thor 
+	desc "version", "ask for Manifest version"
+	def version
+		puts "Development Version"
+	end
+	desc "create manifest INPUT OUTPUT", "create manifest file from data in INPUT file and save in OUTPUT file"
+	def create(input, output="../newoutput/")
+		require_relative "../lib/creator"
+		require_relative "../newconfigfiles/#{input}"
+		
+		creator = WittManifests::Creator.new($confighash, output)
+		creator.manifest
+	end
+end
+
+Manifest.start(ARGV)
