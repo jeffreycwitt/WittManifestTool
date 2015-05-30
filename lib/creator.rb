@@ -1,7 +1,8 @@
-module WittManifests
+require 'json'
+module WittManifestTool
 	class Creator
 
-		def initialize (confighash, output)
+		def initialize (confighash)
 			@msslug = confighash[:msslug]
 			@msabbrev = confighash[:msabbrev]
 			@manifestLabel = confighash[:manifestLabel]
@@ -22,7 +23,6 @@ module WittManifests
 			@folio_skip_array = confighash[:folio_skip_array]
 			@folio_bis_array = confighash[:folio_bis_array]
 			
-			@outputdir = output
 			@annotationListIdBase = confighash[:annotationListIdBase]
 			
 			@presentation_context = confighash[:presentation_context]
@@ -34,11 +34,9 @@ module WittManifests
 			@image_service_count = confighash[:image_service_count]
 			@image_service_skip_array = confighash[:image_service_skip_array] 
 
-			#require "../configfiles"
 		end
 
 		def manifest
-
 		manifestHash = {
 	    "@context"=>@presentation_context,
 	    "@id" => "http://scta.info/iiif/#{@msslug}/manifest",
@@ -61,25 +59,24 @@ module WittManifests
 	      }
 	    ],
 	    "description"=> @manifestDescription,
-	    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-	    "attribution"=> "BnF",
-	    "seeAlso": @seeAlso,
-	    "logo": "https://raw.githubusercontent.com/IIIF/m2/master/images/logos/bnf-logo.jpeg",
-	    "sequences": self.sequence
+	    "license" => "https://creativecommons.org/publicdomain/zero/1.0/",
+	    "attribution" => "BnF",
+	    "seeAlso" => @seeAlso,
+	    "logo" => "http://upload.wikimedia.org/wikipedia/fr/thumb/8/84/Logo_BnF.svg/1280px-Logo_BnF.svg.png",
+	    "sequences" => self.sequence
 	  }
-		#manifest = IIIF::Presentation::Manifest.new(manifestHash)
-		#manifest.sequences << self.sequence
+	  puts manifestHash.inspect
 		puts manifestHash.to_json(pretty: true)
 		end
 		def sequence
 			sequenceHash = [{
-	        "@context"=>@presentation_context,
+	        "@context"=> @presentation_context,
 	        "@id"=> "http://scta.info/iiif/#{@msslug}/sequence/normal",
 	        "@type"=> "sc:Sequence",
 	        "label"=> "Current page order",
 	        "viewingDirection" => @viewingDirection,
 	        "viewingHint" => "paged",
-	        "canvases": self.canvases
+	        "canvases" => self.canvases
 	      }]
 	    return sequenceHash
 		end
