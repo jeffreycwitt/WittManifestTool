@@ -151,7 +151,6 @@ module WittManifestTool
 			      "images"=>[
 			          {
 			          "@context"=>@presentation_context,
-			          #{}"@type" => "http://www.shared-canvas.org/ns/context",
 			          "@id"=> "http://scta.info/iiif/#{@msslug}/annotation/#{@msabbrev}#{fol}-image",
 			          "@type"=> "oa:Annotation",
 			          "motivation" => "sc:painting",
