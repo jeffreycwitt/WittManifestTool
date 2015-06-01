@@ -1,4 +1,4 @@
-This is a little command line tool I've build to automate my creation of IIIF manifests of medieval manusctripts.
+This is a little command line tool I've build to automate my creation of IIIF manifests of medieval manuscripts.
 
 It is customized for my personal project needs, but it could be increasingly generalized. Perhaps its current benefit is just to introduce newcomers to the idea of automated manifest creation and some of the problem areas to be aware of when trying to automatically genereate manifests for manuscripts. 
 
