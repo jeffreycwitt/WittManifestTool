@@ -8,13 +8,13 @@ Below is explanation of what problems this script tries to solve and the current
 
 In my case, the basic automation problem is how to correctly declare a lot of canvases correctly aligned with their associated image annotations and image services.
 
-Declaring information for the manifest as a whole is a one time event and doesn't really need to be automated.But most of the manuscripts I'm working with have between 100 and 200 folios. These means I need to create around 400 canvases for each manifest. I've auto created about 30 manifests now, which means about 12,000 canvas entries. I'm not about to type this out by hand. 
+Declaring information for the manifest as a whole is a one time event and doesn't really need to be automated. But most of the manuscripts I'm working with have between 100 and 200 folios. This means I need to create around 400 canvases for each manifest. I've auto created about 30 manifests now, which means about 12,000 canvas entries. I'm not about to type this out by hand. 
 
 In theory this automation is a fairly easy task. I intend for my canvas ids to follow the foliation of the manuscript, and manuscripts are usually numbered in sequential order, so that should just be a simple loop. 
 
 But in practice there are complications. First, a canvas iteration needs to alternate from recto to verso and only change numerical number when moving from verso to recto. Secondly, manuscripts sometime make mistakes and repeat a number or skip a number. We have to be able to account for this.
 
-There are additional difficulties when associating these folios with the corect image on the image server. The folio number is very often not used as the identifier of the image. Thus, we need to find a way to automatically align the folio number which is used in the canvas id with the service id (or the image file name). Fortunately, Gallica currently uses a sequential numbering to number its images, so, in theory, all we need to do is to match up the beginning of the folio sequence with the image file name sequence and everything should line up. But again, in practice, there are problems. Often Gallica's sequence of images includes duplicate images (e.g. f5.jpg and f6.jpg will be separate images of the same folio) and this repetition ruins our alignment. Finally, Gallica images are often images of facing verso and recto pages rather than the preferred image of a single side of a folio.
+There are additional difficulties when associating these folios with the corect image on a given image server. The folio number is very often not used as the identifier of the image. Thus, we need to find a way to automatically align the folio number which is used in the canvas id with the service id (or the image file name). Fortunately, Gallica currently uses a sequential numbering to number its images, so, in theory, all we need to do is match up the beginning of the folio sequence with the image file name sequence and everything should line up. But again, in practice, there are problems. Often Gallica's sequence of images includes duplicate images (e.g. f5.jpg and f6.jpg will be separate images of the same folio) and this repetition ruins our alignment. Finally, Gallica images are often images of facing verso and recto pages rather than the preferred image of a single side of a folio.
 
 So, in theory automation is easy. But to make it work, we need a bunch of little extra pieces of information about each manuscript in question so that the canvases will both number correctly (with the right label) and align with the corresponding image id.
 
@@ -77,18 +77,21 @@ Filename "/input/config-jdso-bnf3155.rb"
 
 		}   
 
-A couple of notes about this file. Under canvas info you'll see an array called 'folio_skip_array' and 'folio_bis_array.' These arrays tell the loop whether not a folio number needs to be skipped or a manuscript has numbered two separate folios with the same number. Likewise under Canvas Info you'll find a key called "type". The value for this (single or double) tells the script whether to make canvases for a single side of a page or for facing verso recto pages.
+A couple of notes about this file. Under canvas info you'll see an array called 'folio_skip_array' and 'folio_bis_array.' These arrays tell the loop whether or not a folio number needs to be skipped or a manuscript has numbered two separate folios with the same number. Likewise under canvas info you'll find a key called "type". The value for this (single or double) tells the script whether to make canvases for a single side of a page or for facing verso recto pages.
 
 Second, under "image service info" I've created a service type to tell the creating script to create a service id tailored to the Gallica url system. Because my own image server has a different url scheme, I change the value of this key to "SCTA" when creating a manifest for manuscripts whose images are served from my own server. As I find manuscripts on different IIIF servers, I will create new alternatives in the script for each service type.
 
 You can also see the image_service_skip array which defines those numbers that represent duplicate images in Gallica's numbering scheme. These are images that need to be skipped if the automation is going to be kept in sync.
 
-Finally, while you can see I have set some default values for canvas and image height and width, in practice it is rearely the case that the image sizes are exactly the same. This imprecision causes a problem when trying to associate coordinates to specific parts of the canvas and image. To remedy this problem, the script below will actually make an http request for the info.json file and get the exact height and width dimensions. This significantly slows the script down (as nearly 400 http requests are getting made), but it's worth it to automatically get the exact dimensions.
+Finally, while you can see I have set some default values for canvas and image height and width, in practice it is rarely the case that the image sizes are exactly the same. This imprecision causes a problem when trying to associate coordinates to specific parts of the canvas and image. To remedy this problem, the script below will actually make an http request for the info.json file and get the exact height and width dimensions. This significantly slows the script down (as nearly 400 http requests are getting made), but it's worth it to automatically get the exact dimensions.
 
 Below is the class and method definitions that knows how to use this information:
 /lib/creator.rb
 
 		require 'json'
+		require 'open-uri'
+		require 'pry'
+
 		module WittManifestTool
 			class Creator
 
@@ -231,15 +234,32 @@ Below is the class and method definitions that knows how to use this information
 					  	serviceid = @image_service_base + "#{@msslug}/#{@msabbrev}#{fol}.jpg"
 					  #add other cases here
 					  end
+						
+						begin
+					  	infojson = open(serviceid + "/info.json")
+					  rescue OpenURI::HTTPError => ex
+		      		infojson = "failure"
+		      	end
 
+					  if infojson == "failure"
+					  	height = @imageHeight
+					  	width = @imageWidth
+					  else
+							body = JSON.parse(infojson.read)
+					  	height = body['height']
+					  	width = body['width']
+					  end
 					  
+
 					  canvas =  {
 					      "@context"=>@presentation_context,
 					      "@id"=>"http://scta.info/iiif/#{@msslug}/canvas/#{@msabbrev}#{fol}",
 					      "@type"=>"sc:Canvas",
 					      "label"=> "folio #{fol}",
-					      "height"=>@canvasHeight,
-					      "width"=>@canvasWidth,
+					      #"height"=>@canvasHeight,
+					      "height"=>height,
+					      #"width"=>@canvasWidth,
+					      "width"=>width,
 					      "images"=>[
 					          {
 					          "@context"=>@presentation_context,
@@ -255,8 +275,10 @@ Below is the class and method definitions that knows how to use this information
 					                "@id"=> serviceid,
 					                "profile"=> @image_service_profile
 					                },
-					            "height"=>@imageHeight,
-					            "width"=>@imageWidth,
+					            #"height"=>@imageHeight,
+					            "height"=>height,
+					            #"width"=>@imageWidth,
+					            "width"=>width,
 					          },
 					        "on"=> "http://scta.info/iiif/#{@msslug}/canvas/#{@msabbrev}#{fol}"
 					        }
@@ -332,6 +354,7 @@ Below is the class and method definitions that knows how to use this information
 				end
 			end 
 		end
+
 
 
 Finally ruby has a nice command line gem that I use to call this function. 
