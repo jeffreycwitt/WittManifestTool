@@ -1,4 +1,7 @@
 require 'json'
+require 'open-uri'
+require 'pry'
+
 module WittManifestTool
 	class Creator
 
@@ -9,7 +12,11 @@ module WittManifestTool
 			@manifestDescription = confighash[:manifestDescription]
 			@seeAlso = confighash[:seeAlso]
 			@author = confighash[:author]
+			@logo = confighash[:logo]
+			@attribution = confighash[:attribution] 
+
 			@viewingDirection = confighash[:viewingDirection]
+			
 			@numberOfFolios = confighash[:numberOfFolios]
 			@canvasWidth = confighash[:canvasWidth]
 			@canvasHeight = confighash[:canvasHeight] 
@@ -18,21 +25,20 @@ module WittManifestTool
 			@imageHeight = confighash[:imageHeight]
 			@type = confighash[:type]
 			@i = confighash[:i]
-			
 			@side = confighash[:side]
 			@folio_skip_array = confighash[:folio_skip_array]
 			@folio_bis_array = confighash[:folio_bis_array]
 			
-			@annotationListIdBase = confighash[:annotationListIdBase]
-			
 			@presentation_context = confighash[:presentation_context]
-			
+
 			@serviceType = confighash[:serviceType]
 			@image_context = confighash[:image_context]
 			@image_service_profile = confighash[:image_service_profile]
 			@image_service_base = confighash[:image_service_base]
 			@image_service_count = confighash[:image_service_count]
 			@image_service_skip_array = confighash[:image_service_skip_array] 
+
+			@annotationListIdBase = confighash[:annotationListIdBase]
 
 		end
 
@@ -60,13 +66,12 @@ module WittManifestTool
 	    ],
 	    "description"=> @manifestDescription,
 	    "license" => "https://creativecommons.org/publicdomain/zero/1.0/",
-	    "attribution" => "BnF",
+	    "attribution" => @attribution,
 	    "seeAlso" => @seeAlso,
-	    "logo" => "http://upload.wikimedia.org/wikipedia/fr/thumb/8/84/Logo_BnF.svg/1280px-Logo_BnF.svg.png",
+	    "logo" => @logo,
 	    "sequences" => self.sequence
 	  }
-	  puts manifestHash.inspect
-		puts manifestHash.to_json(pretty: true)
+	  puts manifestHash.to_json(pretty: true)
 		end
 		def sequence
 			sequenceHash = [{
@@ -139,15 +144,32 @@ module WittManifestTool
 			  	serviceid = @image_service_base + "#{@msslug}/#{@msabbrev}#{fol}.jpg"
 			  #add other cases here
 			  end
+				
+				begin
+			  	infojson = open(serviceid + "/info.json")
+			  rescue OpenURI::HTTPError => ex
+      		infojson = "failure"
+      	end
 
+			  if infojson == "failure"
+			  	height = @imageHeight
+			  	width = @imageWidth
+			  else
+					body = JSON.parse(infojson.read)
+			  	height = body['height']
+			  	width = body['width']
+			  end
 			  
+
 			  canvas =  {
 			      "@context"=>@presentation_context,
 			      "@id"=>"http://scta.info/iiif/#{@msslug}/canvas/#{@msabbrev}#{fol}",
 			      "@type"=>"sc:Canvas",
 			      "label"=> "folio #{fol}",
-			      "height"=>@canvasHeight,
-			      "width"=>@canvasWidth,
+			      #"height"=>@canvasHeight,
+			      "height"=>height,
+			      #"width"=>@canvasWidth,
+			      "width"=>width,
 			      "images"=>[
 			          {
 			          "@context"=>@presentation_context,
@@ -163,8 +185,10 @@ module WittManifestTool
 			                "@id"=> serviceid,
 			                "profile"=> @image_service_profile
 			                },
-			            "height"=>@imageHeight,
-			            "width"=>@imageWidth,
+			            #"height"=>@imageHeight,
+			            "height"=>height,
+			            #"width"=>@imageWidth,
+			            "width"=>width,
 			          },
 			        "on"=> "http://scta.info/iiif/#{@msslug}/canvas/#{@msabbrev}#{fol}"
 			        }

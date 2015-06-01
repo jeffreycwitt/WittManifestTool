@@ -1,20 +1,24 @@
 This is a little command line tool I've build to automate my creation of IIIF manifests of medieval manusctripts.
 
-It is customized for my personal project needs, but it could be increasingly generalized. Perhaps its greater benefit is just to introduce newcomers to the idea of automated manifest creation and some of the problem areas to be aware of when trying to automatically genereate manifests for manuscripts. Please fork and customize if so desired, or help make it better and more general and submit a pull request.
+It is customized for my personal project needs, but it could be increasingly generalized. Perhaps its current benefit is just to introduce newcomers to the idea of automated manifest creation and some of the problem areas to be aware of when trying to automatically genereate manifests for manuscripts. 
 
-Below is explanation of what problems this script tries to solve and the current method it uses to overcome these problems.
+Please fork and customize if it seems useful. Alternatively, please help make it better and more general and then submit a pull request.
+
+Below is explanation of what problems this script tries to solve and the current method it uses to overcome those problems.
 
 In my case, the basic automation problem is how to correctly declare a lot of canvases correctly aligned with their associated image annotations and image services.
 
-Declaring information for the manifest as a whole is a one time event and doesn't really need to be automated.But most of the manuscripts I'm working with have between 100 and 200 folios. These means I need to create around 400 canvases for each manifest. I've auto created about 30 manifests now, which means about 12,000 canvas entires. I'm not about to type this out by hand. 
+Declaring information for the manifest as a whole is a one time event and doesn't really need to be automated.But most of the manuscripts I'm working with have between 100 and 200 folios. These means I need to create around 400 canvases for each manifest. I've auto created about 30 manifests now, which means about 12,000 canvas entries. I'm not about to type this out by hand. 
 
-In theory this automation is a fairly easy task. I intend for my canvas ids to follow the foliation of the manuscript and manuscripts are usually numbered in sequential order, so that should just be a simple loop. 
+In theory this automation is a fairly easy task. I intend for my canvas ids to follow the foliation of the manuscript, and manuscripts are usually numbered in sequential order, so that should just be a simple loop. 
 
-But in practice there are complications. First, a canvas iteration needs to alternate from recto to verso and only change numerical number when moving from verso to recto. Secondly, manuscripts sometime make mistakes and repeat a number or skip a number. Finally, the filename of the image on the image server does not always match up with the folio number. Thus, we need to find a way to automatically align the folio number which is used in the canvas id with the service id (or the image file name). Fortunately, Gallica currently uses a sequential numbering to number its images, so, in theory, all we need to do is to match up the beginning of the folio sequence with the image file name sequence and everything should line up. But again, in practice, there are problems. Often Gallica's sequence of images includes duplicate images (e.g. f5.jpg and f6.jpg will be separate images of the same folio) and this repetition ruins our alignment. Finally, often Gallica images are images of facing verso and recto pages rather than the preferred image of a single side of a folio.
+But in practice there are complications. First, a canvas iteration needs to alternate from recto to verso and only change numerical number when moving from verso to recto. Secondly, manuscripts sometime make mistakes and repeat a number or skip a number. We have to be able to account for this.
 
-So, in theory automation is easy. But to make it work, we need a bunch of little extra pieces of information about each manuscript in question so that the canvas will both number correctly and align with the corresponding image id.
+There are additional difficulties when associating these folios with the corect image on the image server. The folio number is very often not used as the identifier of the image. Thus, we need to find a way to automatically align the folio number which is used in the canvas id with the service id (or the image file name). Fortunately, Gallica currently uses a sequential numbering to number its images, so, in theory, all we need to do is to match up the beginning of the folio sequence with the image file name sequence and everything should line up. But again, in practice, there are problems. Often Gallica's sequence of images includes duplicate images (e.g. f5.jpg and f6.jpg will be separate images of the same folio) and this repetition ruins our alignment. Finally, Gallica images are often images of facing verso and recto pages rather than the preferred image of a single side of a folio.
 
-The basic idea then is to have configuration file that contains  this idiosyncratic information.
+So, in theory automation is easy. But to make it work, we need a bunch of little extra pieces of information about each manuscript in question so that the canvases will both number correctly (with the right label) and align with the corresponding image id.
+
+The basic idea then is to have configuration file that contains all this idiosyncratic information.
 
 Then we can feed this information into a script that creates the full manifest in a ruby hash.
 
@@ -22,16 +26,19 @@ Finally, we can serialize this hash to json and then save it as a new file.
 
 Below I've included a sample config file (found in the "input" folder) which includes guided comments. Then I've included the script (with comments) that knows what to do with that config information.
 
-Filename "/input/config-dsp-bnf14454.rb"
-		#Config file for Durandus of St. Pourcain bnf 14454
+Filename "/input/config-jdso-bnf3155.rb"
+
+		#Config file for Scotus bnf 3114
 		$confighash = {
 			#General Manifest Info
-			msslug: "dsp-bnf14454",
+			msslug: "jdso-bnf3114",
 			msabbrev: "P",
-			manifestLabel: "Durandus of St. Pourcain - Paris, Bibliotheque Nationale de France, ms. lat. 14563",
-			manifestDescription: "Witness to Book 1 of Durandus of St. Pourcain's Commentary on the Sentences", 
-			seeAlso: "http://gallicalabs.bnf.fr/ark:/12148/btv1b90660603/",
-			author: "Durandus of St. Pourcain",
+			manifestLabel: "John Duns Scotus - Ordinatio - Paris, Bibliotheque Nationale de France, ms. lat. 3114",
+			manifestDescription: "Witness to Book 4 John Duns Scotus Ordinatio Commentary on the Sentences", 
+			seeAlso: "http://gallica.bnf.fr/ark:/12148/btv1b90659708/",
+			author: "John Duns Scotus",
+			logo: "http://upload.wikimedia.org/wikipedia/fr/thumb/8/84/Logo_BnF.svg/1280px-Logo_BnF.svg.png",
+			attribution: "BnF",
 
 			#Presentation Context
 			presentation_context: "http://iiif.io/api/presentation/2/context.json",
@@ -41,55 +48,62 @@ Filename "/input/config-dsp-bnf14454.rb"
 			viewingDirection: "left-to-right",
 
 			#Canvas Info
-			canvasWidth: 1024, 
-			canvasHeight: 1496,
-			type: "single", # indicates if images are single sides or facing pages.
-			i: 31, # starting folio
-			numberOfFolios: 115, #end number of folios
-			side: "r", #starting folio side
+			canvasWidth: 1414, 
+			canvasHeight: 1054,
+			type: "double", # indicates if images are single sides or facing pages.
+			i: 1, # starting folio
+			numberOfFolios: 114, #end number of folios
+			side: "", #starting folio side
 			folio_skip_array: [],
-			folio_bis_array: [],
+			folio_bis_array: [33],
 
 
 			#Image Info
 			imageFormat: "image/jpeg", 
-			imageWidth: 1024,
-			imageHeight: 1496,
+			imageWidth: 1414,
+			imageHeight: 1054,
 
 			#Image Service Info
 			serviceType: "Gallica",
 			image_context: "http://iiif.io/api/image/1/context.json",
 			image_service_profile: "http://iiif.io/api/image/1/level2.json",
-			image_service_base: "http://gallica.bnf.fr/iiif/ark:/12148/btv1b90660603/",
-			image_service_count: 68, 
-			image_service_skip_array: [71, 81, 131, 136, 213],
+			image_service_base: "http://gallica.bnf.fr/iiif/ark:/12148/btv1b90659708/",
+			image_service_count: 5, 
+			image_service_skip_array: [7, 22, 23, 62, 65, 67],
 			
 
 			#Annotation List Info
-			annotationListIdBase: "http://scta.info/iiif/dsp-bnf14454/list/"
+			annotationListIdBase: nil
 
-		}    
+		}   
 
-A couple of notes about this file. Under canvas info you'll see an array called 'folio_skip_array' and 'folio_bis_array' These arrays tell the loop whether not a folio number needs to be skipped or a manuscript has numbered two separate folios with the same number.
+A couple of notes about this file. Under canvas info you'll see an array called 'folio_skip_array' and 'folio_bis_array.' These arrays tell the loop whether not a folio number needs to be skipped or a manuscript has numbered two separate folios with the same number. Likewise under Canvas Info you'll find a key called "type". The value for this (single or double) tells the script whether to make canvases for a single side of a page or for facing verso recto pages.
 
-Second, under "image service info" I've created a service type simply to tell the creating script to create a service id tailored to the Gallica url system. Because my own image server has a different url scheme, I change the value of this key to "SCTA" when creating a manifest for manuscripts whose images are served from my own server. As I find manuscripts on IIIF servers, I will create new alternatives in the script for each service type.
+Second, under "image service info" I've created a service type to tell the creating script to create a service id tailored to the Gallica url system. Because my own image server has a different url scheme, I change the value of this key to "SCTA" when creating a manifest for manuscripts whose images are served from my own server. As I find manuscripts on different IIIF servers, I will create new alternatives in the script for each service type.
 
-Finally, you can see the image_service_skip array which defines those numbers that represent duplicate images in Gallica's numbering scheme. These are images that need to be skipped if the automation is going to be kept in sync.
+You can also see the image_service_skip array which defines those numbers that represent duplicate images in Gallica's numbering scheme. These are images that need to be skipped if the automation is going to be kept in sync.
+
+Finally, while you can see I have set some default values for canvas and image height and width, in practice it is rearely the case that the image sizes are exactly the same. This imprecision causes a problem when trying to associate coordinates to specific parts of the canvas and image. To remedy this problem, the script below will actually make an http request for the info.json file and get the exact height and width dimensions. This significantly slows the script down (as nearly 400 http requests are getting made), but it's worth it to automatically get the exact dimensions.
 
 Below is the class and method definitions that knows how to use this information:
 /lib/creator.rb
 
-		module WittManifests
+		require 'json'
+		module WittManifestTool
 			class Creator
 
-				def initialize (confighash, output)
+				def initialize (confighash)
 					@msslug = confighash[:msslug]
 					@msabbrev = confighash[:msabbrev]
 					@manifestLabel = confighash[:manifestLabel]
 					@manifestDescription = confighash[:manifestDescription]
 					@seeAlso = confighash[:seeAlso]
 					@author = confighash[:author]
+					@logo = confighash[:logo]
+					@attribution = confighash[:attribution] 
+
 					@viewingDirection = confighash[:viewingDirection]
+					
 					@numberOfFolios = confighash[:numberOfFolios]
 					@canvasWidth = confighash[:canvasWidth]
 					@canvasHeight = confighash[:canvasHeight] 
@@ -98,16 +112,12 @@ Below is the class and method definitions that knows how to use this information
 					@imageHeight = confighash[:imageHeight]
 					@type = confighash[:type]
 					@i = confighash[:i]
-					
 					@side = confighash[:side]
 					@folio_skip_array = confighash[:folio_skip_array]
 					@folio_bis_array = confighash[:folio_bis_array]
 					
-					@outputdir = output
-					@annotationListIdBase = confighash[:annotationListIdBase]
-					
 					@presentation_context = confighash[:presentation_context]
-					
+
 					@serviceType = confighash[:serviceType]
 					@image_context = confighash[:image_context]
 					@image_service_profile = confighash[:image_service_profile]
@@ -115,11 +125,11 @@ Below is the class and method definitions that knows how to use this information
 					@image_service_count = confighash[:image_service_count]
 					@image_service_skip_array = confighash[:image_service_skip_array] 
 
-					#require "../configfiles"
+					@annotationListIdBase = confighash[:annotationListIdBase]
+
 				end
 
 				def manifest
-
 				manifestHash = {
 			    "@context"=>@presentation_context,
 			    "@id" => "http://scta.info/iiif/#{@msslug}/manifest",
@@ -142,25 +152,23 @@ Below is the class and method definitions that knows how to use this information
 			      }
 			    ],
 			    "description"=> @manifestDescription,
-			    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-			    "attribution"=> "BnF",
-			    "seeAlso": @seeAlso,
-			    "logo": "https://raw.githubusercontent.com/IIIF/m2/master/images/logos/bnf-logo.jpeg",
-			    "sequences": self.sequence
+			    "license" => "https://creativecommons.org/publicdomain/zero/1.0/",
+			    "attribution" => @attribution,
+			    "seeAlso" => @seeAlso,
+			    "logo" => @logo,
+			    "sequences" => self.sequence
 			  }
-				#manifest = IIIF::Presentation::Manifest.new(manifestHash)
-				#manifest.sequences << self.sequence
-				puts manifestHash.to_json(pretty: true)
+			  puts manifestHash.to_json(pretty: true)
 				end
 				def sequence
 					sequenceHash = [{
-			        "@context"=>@presentation_context,
+			        "@context"=> @presentation_context,
 			        "@id"=> "http://scta.info/iiif/#{@msslug}/sequence/normal",
 			        "@type"=> "sc:Sequence",
 			        "label"=> "Current page order",
 			        "viewingDirection" => @viewingDirection,
 			        "viewingHint" => "paged",
-			        "canvases": self.canvases
+			        "canvases" => self.canvases
 			      }]
 			    return sequenceHash
 				end
@@ -235,7 +243,6 @@ Below is the class and method definitions that knows how to use this information
 					      "images"=>[
 					          {
 					          "@context"=>@presentation_context,
-					          #{}"@type" => "http://www.shared-canvas.org/ns/context",
 					          "@id"=> "http://scta.info/iiif/#{@msslug}/annotation/#{@msabbrev}#{fol}-image",
 					          "@type"=> "oa:Annotation",
 					          "motivation" => "sc:painting",
@@ -326,25 +333,26 @@ Below is the class and method definitions that knows how to use this information
 			end 
 		end
 
-Finally ruby has a nice command line gem that I use to call this function. 
-File `/bin/manifest` looks like this:
 
+Finally ruby has a nice command line gem that I use to call this function. 
+
+File `/bin/manifest` looks like this:
 
 		#!/usr/bin/env ruby
 
 		require "thor"
 
 		class Manifest < Thor 
-			desc "version", "ask for Manifest version"
+			desc "version", "ask for WittManifestTool version"
 			def version
-				puts "Development Version"
+				puts "version 0.0.1"
 			end
 			desc "create manifest INPUT OUTPUT", "create manifest file from data in INPUT file and save in OUTPUT file"
-			def create(input, output="../newoutput/")
+			def create(input)
 				require_relative "../lib/creator"
-				require_relative "../newconfigfiles/#{input}"
+				require_relative "../input/#{input}"
 				
-				creator = WittManifests::Creator.new($confighash, output)
+				creator = WittManifestTool::Creator.new($confighash)
 				creator.manifest
 			end
 		end

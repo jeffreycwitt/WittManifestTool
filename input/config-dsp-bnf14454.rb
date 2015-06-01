@@ -7,6 +7,8 @@ $confighash = {
 	manifestDescription: "Witness to Book 1 of Durandus of St. Pourcain's Commentary on the Sentences", 
 	seeAlso: "http://gallicalabs.bnf.fr/ark:/12148/btv1b90660603/",
 	author: "Durandus of St. Pourcain",
+	logo: "http://upload.wikimedia.org/wikipedia/fr/thumb/8/84/Logo_BnF.svg/1280px-Logo_BnF.svg.png",
+	attribution: "BnF",
 
 	#Presentation Context
 	presentation_context: "http://iiif.io/api/presentation/2/context.json",
@@ -43,6 +45,4 @@ $confighash = {
 	#Annotation List Info
 	annotationListIdBase: "http://scta.info/iiif/dsp-bnf14454/list/"
 
-
-	
 }
