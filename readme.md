@@ -1,6 +1,6 @@
 This is a little command line tool I've build to automate my creation of IIIF manifests of medieval manuscripts.
 
-It is customized for my personal project needs, but it could be increasingly generalized. Perhaps its current benefit is just to introduce newcomers to the idea of automated manifest creation and some of the problem areas to be aware of when trying to automatically genereate manifests for manuscripts. 
+It is customized for my personal project needs, but it could be increasingly generalized. Perhaps its current benefit is just to introduce newcomers to the idea of automated manifest creation and some of the problem areas to be aware of when trying to automatically generate manifests for manuscripts. 
 
 Please fork and customize if it seems useful. Alternatively, please help make it better and more general and then submit a pull request.
 
