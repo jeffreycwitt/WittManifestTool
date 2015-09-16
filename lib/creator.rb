@@ -142,6 +142,21 @@ module WittManifestTool
 			  	serviceid = @image_service_base + "f#{@image_service_count}"
 			  elsif @serviceType == "SCTA"
 			  	serviceid = @image_service_base + "#{@msslug}/#{@msabbrev}#{fol}.jpg"
+			  elsif @serviceType == "UPenn"
+			  	if @image_service_count.to_s.length == 1
+			  		serviceid = @image_service_base + "000#{@image_service_count}.tif"
+			  	elsif @image_service_count.to_s.length == 2
+			  		serviceid = @image_service_base + "00#{@image_service_count}.tif"
+			  	elsif @image_service_count.to_s.length == 3
+			  		serviceid = @image_service_base + "0#{@image_service_count}.tif"
+			  	elsif @image_service_count.to_s.length == 4
+			  		serviceid = @image_service_base + "#{@image_service_count}.tif"
+			  	end
+			  elsif @serviceType == 'ecodices'
+			  	serviceid = @image_service_base + "#{fol}.jp2"
+			  elsif @serviceType == 'dkb'
+			  	serviceid = @image_service_base + "#{fol}"
+			  	
 			  #add other cases here
 			  end
 				
@@ -150,14 +165,19 @@ module WittManifestTool
 			  rescue OpenURI::HTTPError => ex
       		infojson = "failure"
       	end
-
-			  if infojson == "failure"
+      	
+      	if infojson == "failure"
 			  	height = @imageHeight
 			  	width = @imageWidth
 			  else
-					body = JSON.parse(infojson.read)
-			  	height = body['height']
-			  	width = body['width']
+			  	begin
+						body = JSON.parse(infojson.read)
+						height = body['height']
+			  		width = body['width']
+					rescue JSON::ParserError => e  
+						height = @imageHeight
+			  		width = @imageWidth
+			  	end
 			  end
 			  
 
